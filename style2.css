@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Overpass', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* header styles */
+header{
+    background-size: 150%, 100%;
+    background-image:  url(./images/bg-pattern-intro.svg) ,linear-gradient(80deg, #ff8f70, #ff3d54);
+    background-position: 0 60%;
+    border-bottom-left-radius: 100px;
+    background-repeat: no-repeat;
+    min-height: 47vh;
+    /* background: linear-gradient( hsl(13, 100%, 72%), hsl(353, 100%, 62%)); */
+    margin-bottom: 15px;
+    border-radius: 0px 0px 0px 60px;
+}
+
+/* Navigation bar syles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 47px;
+    padding-left: 50px;
+}
+nav svg{
+    padding-left: 10px;
+    cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    margin-right: auto;
+}
+nav ul li{
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+nav ul li:hover{
+    font-weight: bold;
+}
+
+/* button styles */
+nav button{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0px 35px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+button#sign-up{
+    background-color: white;
+    font-size: 21px;
+    margin-left: -100px;
+    color: hsl(353, 100%, 62%);
+}
+button#sign-up:hover{
+    font-weight: bold;
+    background-color: hsl(353, 100%, 62%);
+    border: 1px solid white;
+    color: white;
+}
+
+nav a#log{
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 130px;
+    font-size: 20px;
+}
+nav a#log:hover{
+    font-weight: bold;
+}
+
+/* div class "title" styles */
+.title{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 70px;
+}
+.title h1{
+    font-weight: 300;
+    font-size: 40px;
+}
+
+/* div class "btn" styles */
+.btn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn #start{
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    color: hsl(356, 100%, 66%);
+}
+.btn #learn{
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.btn #learn:hover{
+    font-weight: bold;
+    background-color: white;
+    color: hsl(353, 100%, 62%);
+}
+.btn #start:hover{
+    font-weight: bold;
+    background-color: #FF6963;
+    color: white;
+    border: 1px solid white;
+}
+
+/* body styles */
+h2{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: hsl(207, 13%, 34%);
+}
+
+/* section "intro" styles */
+#intro{
+    margin-top: 165px;
+    padding-left: 50px;
+    color: hsl(240, 2%, 58%);
+}
+#intro h3{
+    font-size: 20px;
+    color: hsl(207, 13%, 34%);
+    margin-top: 60px;
+}
+#img{
+    width: 650px;
+    float: right;
+    margin-top: -120px;
+}
+
+/* Div class "art" styles */
+.art{
+    min-height: 60vh;
+    border-radius: 0px 60px 0px;
+    margin-top: 380px;
+    background: linear-gradient(hsl(237, 17%, 21%),hsl(237, 23%, 32%));
+    color: white;
+}
+.art h1{
+    padding-top: 167px;
+    font-weight: 400;
+}
+.art p{
+    padding-top: 20px;
+    padding-right: 50px;
+    color: hsl(240, 2%, 58%);
+}
+#phone{
+    float: left;
+    margin-right: 100px;
+}
+
+/* div class "free" styles */
+.free{
+    margin-top: 330px;
+   
+}
+.free h3{
+    font-size: 25px;
+    color: hsl(207, 13%, 34%);
+}
+#laptop{
+    float: left;
+    margin-top: 80px;
+    margin-left: -170px;
+}
+.free p{
+    margin-right: 60px;
+    padding: 20px;
+    font-size: 18px;
+    color: hsl(240, 2%, 58%);
+}
+
+/* footer styles */
+footer{
+    padding-left: 20px;
+    display: inline-block;
+    background-color: hsl(240, 10%, 16%);
+    margin-top: 200px;
+    min-height: 45vh;
+    min-width: 99vw;
+    color: white;
+    border-radius: 0px 60px 0px 0px;
+}
+#footer-logo{
+    margin-top: 76px;
+}
+footer h3{
+    padding-bottom: 20px;
+}
+footer ul{
+margin-left: 230px;
+margin-bottom: 40px;
+display: table;
+display: inline-table;
+padding-top: 120px;
+list-style-type: none;
+}
+ul #connect{
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
