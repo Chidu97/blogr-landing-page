@@ -25,7 +25,7 @@ card to brush up on my HTML and CSS.
 ### Links
 
 - Solution URL: (https://github.com/Chidu97/blogr-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://transcendent-conkies-3e1309.netlify.app)
 
 ## My process
 
