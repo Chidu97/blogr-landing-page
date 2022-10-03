@@ -10,8 +10,7 @@
 - [Author](#author)
 
 ## Overview
-My attempt at recreating this nft preview 
-card to brush up on my HTML and CSS.
+My attempt at recreating this static Blogr website to brush up on my HTML and CSS.
 
 ### The challenge
 - View the optimal layout depending on their device's screen size
